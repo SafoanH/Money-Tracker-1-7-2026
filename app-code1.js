@@ -3,7 +3,7 @@ import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 /** ===========================
  *  SUPABASE CONFIG (YOUR VALUES)
  *  =========================== */
-const SUPABASE_URL = "https://zbiutjrfcpzfndvvosfe.supabase.co";
+const SUPABASE_URL = "https://zbiutjrfcpzfndvwosfe.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_8xY3RQcA_JXtBH36iLQpUQ_Yr2ROeey";
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
@@ -439,3 +439,4 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   });
 });
+
